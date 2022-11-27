@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  width: 100vw;
+  height: 8vh;
+  background-color: rgb(36, 35, 35);
+  color: lightgray;
+  font-size: 0.95rem;
+  justify-content: center;
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      padding: 0% 2%;
+    }
+    .menu1 {
+      display: flex;
+      justify-content: center;
+      padding: 1.2% 2%;
+    }
+    .menu2 {
+      display: flex;
+      justify-content: center;
+      padding: 1.2% 2%;
+    }
+    .menu3 {
+      display: flex;
+      justify-content: center;
+      padding: 1.2% 2%;
+      background-color: rgb(12, 12, 12);
+      color: white;
+    }
+    .menu4 {
+      display: flex;
+      justify-content: center;
+      padding: 1.2% 2%;
+      margin-left: 52.9%;
+    }
+  }
+}

@@ -1,0 +1,99 @@
+header {
+  display: flex;
+  width: 100vw;
+  height: 8vh;
+  background-color: rgb(36, 35, 35);
+  color: lightgray;
+  font-size: 0.95rem;
+  justify-content: center;
+}
+header .header-container {
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+}
+header .header-container .logo {
+  display: flex;
+  justify-content: center;
+  padding: 0% 2%;
+}
+header .header-container .menu1 {
+  display: flex;
+  justify-content: center;
+  padding: 1.2% 2%;
+}
+header .header-container .menu2 {
+  display: flex;
+  justify-content: center;
+  padding: 1.2% 2%;
+}
+header .header-container .menu3 {
+  display: flex;
+  justify-content: center;
+  padding: 1.2% 2%;
+  background-color: rgb(12, 12, 12);
+  color: white;
+}
+header .header-container .menu4 {
+  display: flex;
+  justify-content: center;
+  padding: 1.2% 2%;
+  margin-left: 52.9%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body .body-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80vw;
+}
+body .body-container .title {
+  display: flex;
+  width: 70vw;
+  padding: 1% 2% 0% 0.8%;
+}
+body .body-container .title h1 {
+  padding: 0% 1%;
+}
+body .body-container .title h2 {
+  padding: 1% 1%;
+  color: gray;
+}
+body .body-container .divider {
+  width: 68vw;
+  height: 0.1vh;
+  background-color: lightgrey;
+  margin-bottom: 1%;
+}
+body .body-container .project {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  padding: 0% 1.5% 2.8% 1.5%;
+}
+body .body-container .project h3 {
+  padding: 2% 0% 0.8% 0%;
+  font-size: 1.3rem;
+  color: rgb(113, 113, 240);
+}
+body .body-container .project p {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+.footer {
+  display: flex;
+  width: 100vw;
+  height: 9vh;
+  justify-content: center;
+  align-items: center;
+  color: rgb(91, 91, 91);
+  font-size: 0.8rem;
+}/*# sourceMappingURL=style.css.map */

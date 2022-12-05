@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .body-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80vw;
+        .title{
+            display: flex;
+            width: 70vw;
+            padding: 1% 2% 0% 0.8%;
+            h1{
+                padding: 0% 1%;
+            }
+            h2{
+                padding: 1% 1%;
+                color: gray;
+            }
+        }
+        .divider{
+            width: 68vw;
+            height: 0.1vh;
+            background-color: lightgrey;
+            margin-bottom: 1%;
+        }
+        .project{
+            display: flex;
+            flex-direction: column;
+            width: 35vw;
+            padding: 0% 1.5% 2.8% 1.5%;
+            h3{
+                padding: 2% 0% 0.8% 0%;
+                font-size: 1.3rem;
+                color: rgb(113, 113, 240);
+            }
+            p{
+                font-size: 0.8rem;
+                line-height: 1rem;
+            }
+        }
+    }
+}
